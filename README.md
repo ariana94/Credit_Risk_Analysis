@@ -91,5 +91,7 @@ We will be utilizing oversampling, undersampling, and balanced/imbalanced classi
 
 ## What does it mean?
 According to our accuracy scores, the Easy Ensemble Classifier was the best model when it came to reliability.
-(best f1)
-(worst overall model)
+Althought the F1 scores for the high risk was relatively low at 14%, it was still the best high rish F1 score out of all the models.
+The worst model, by far was the Cluster Centroids Undersampling model. Its low risk F1 score was 61%, the lowest of all the low risk models. It also had the worst accuracy score at 51.1%
+
+With all this information in mind, I would reccoment the Easy Ensemble Classifier. While it may not be perfect, it did perform the best out of these six.
